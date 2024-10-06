@@ -1,6 +1,6 @@
 ## Catch Model
 
-![Catchable area of the goalie when doing a (catch 45)](./images/catcharea.* "catcharea"){ align=center }
+![Catchable area of the goalie when doing a (catch 45)](./../images/catcharea.png "catcharea"){ align=center }
 
 The goalie is the only player with the ability to catch a ball. The goalie can catch the ball in play mode `play_on` in any direction, if the ball is within the catchable area and the goalie is inside the penalty area. If the goalie catches into direction \( \varphi \), the catchable area is a rectangular area of length **server::catchable_area_l** and width **server::catchable_area_w** in direction \( \varphi \) (see Figure `catcharea`). The ball will be caught with probability **server::catch_probability**, if it is inside this area (and it will not be caught if it is outside this area). For the current values of catch command parameters see Table `param-goaliecatch`:
 

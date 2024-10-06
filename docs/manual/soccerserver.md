@@ -1,4 +1,3 @@
-```markdown
 Last update: |today|
 
 <a id="cha-soccerserver"></a>
@@ -7,7 +6,7 @@ Last update: |today|
 
 ## Objects
 
-![UML diagram of the objects in the simulation](./images/objects.*){: align=center scale="80%" name="objects"}
+![UML diagram of the objects in the simulation](./images/objects.png){: align=center scale="80%" name="objects"}
 
 ## Protocols
 
@@ -74,4 +73,3 @@ Last update: |today|
 ## Using Soccerserver
 
 {% include 'soccerserver/using-soccerserver.md' %}
-```

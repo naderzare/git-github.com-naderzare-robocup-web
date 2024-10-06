@@ -1,4 +1,3 @@
-```markdown
 # Soccer Monitor
 
 ## Introduction
@@ -296,4 +295,3 @@ Some parameters are recorded in `~/.rcssmonitor.conf`, and rcssmonitor will reus
 - Included the head angle into the display of the soccermonitor.
 - Visualization effect for collisions with the ball or other players.
 - Introduced monitor protocol version 2 and logging protocol version 3.
-```

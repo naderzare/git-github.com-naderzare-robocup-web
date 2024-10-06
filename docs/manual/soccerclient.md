@@ -1,5 +1,3 @@
----
-
 # Soccer Client
 
 ## Protocols

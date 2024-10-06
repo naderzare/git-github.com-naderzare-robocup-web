@@ -34,7 +34,7 @@ In the case of **(l ...)**, *Distance* is the distance to the point where the ce
 
 Currently, there are 55 flags (the goals count as flags) and 4 lines to be seen. All of the flags and lines are shown in Figure 1.
 
-![The flags and lines in the simulation.](./images/field-detailed.*)
+![The flags and lines in the simulation.](./../images/field-detailed.png)
 
 In protocol versions 13+, when a player's team is visible, their tackling and kicking state is also visible via `t` and `k`. If the player is tackling, `t` is present. If they are kicking, `k` is present instead. If an observed player is tackling, the kicking flag is always overwritten by the tackle flag. The kicking state is visible the cycle directly after kicking.
 
@@ -66,7 +66,7 @@ where view_width_factor is 0.5 if *ViewWidth* is `narrow`, 1 if *ViewWidth* is `
 
 The player can also "see" an object if it's within `server::visible_distance` meters of the player. If the object is within this distance but not in the view cone, then the player can only know the type of the object (ball, player, goal, or flag), but not the exact name of the object. Moreover, in this case, the capitalized name, that is "B", "P", "G", and "F", is used as the name of the object rather than "b", "p", "g", and "f".
 
-![The visible range of an individual agent in the soccer server.](./images/view-example.*)
+![The visible range of an individual agent in the soccer server.](./../images/view-example.png)
 
 The following example and Figure 2 are taken from Stone98.
 

@@ -1,4 +1,3 @@
-```markdown
 # The RoboCup Soccer Simulator Users Manual
 
 last update: |today|
@@ -17,4 +16,3 @@ last update: |today|
 * [Index](index.md)
 * [Module Index](module-index.md)
 * [Search](search.md)
-```

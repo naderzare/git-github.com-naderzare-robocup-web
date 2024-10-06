@@ -1,4 +1,3 @@
-```markdown
 # Body Sensor Model
 
 The body sensor reports the current "physical" status of the player. The information is automatically sent to the player every **server::sense_body_step**, currently 100, milliseconds.
@@ -47,4 +46,3 @@ The server parameters that affect the body sensor are described in the following
 |---------------------------|-------|
 | server::sense_body_step   | 100   |
 
-```

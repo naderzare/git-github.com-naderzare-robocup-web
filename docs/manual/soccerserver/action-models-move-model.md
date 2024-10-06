@@ -1,4 +1,3 @@
-```
 Move Model
 ==========
 
@@ -12,4 +11,3 @@ Parameter for the move_command
 | Parameter in `server.conf`                  | Value |
 |---------------------------------------------|-------|
 | goalie_max_moves                            | 2     |
-```

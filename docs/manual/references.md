@@ -1,4 +1,3 @@
-```markdown
 # References and Further Reading
 
 ## General Papers
@@ -54,4 +53,3 @@
 
 - [CMUnited98] Peter Stone, Manuela Veloso, and Patrick Riley. The CMUnited-98 Champion Simulator Team. In Minoru Asada and Hiroaki Kitano, editors, RoboCup-98: Robot Soccer World Cup II. RoboCup Federation, Springer–Verlag, 1998.
 - [CMUnited99] Peter Stone, Manuela Veloso, and Patrick Riley. The CMUnited-99 Simulator Team. In Silvia Coradeschi, Tucker Balch, Gerhard Kraetzschmar, and Peter Stone, editors, Team Descriptions Simulation League RoboCup’99, pages 7–11. RoboCup Federation, Linköping University Electronic Press, 1999.
-```

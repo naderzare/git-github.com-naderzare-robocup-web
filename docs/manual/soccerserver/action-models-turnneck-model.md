@@ -1,4 +1,3 @@
-```markdown
 <a name="sec-turnneckmodel"></a>
 
 --------------------------------------------------
@@ -13,4 +12,3 @@ With *turn_neck*, a player can turn its neck somewhat independently of its body.
 | maxneckang                                         |  90       |
 | minneckmoment                                      | -180      |
 | maxneckmoment                                      |  180      |
-```

@@ -1,4 +1,3 @@
-```markdown
 # Overview
 
 ## Getting Started
@@ -97,4 +96,3 @@ Fouls like "obstruction" are difficult to judge automatically because they conce
 - Abusing the goalie **catch** command (the goalie may not repeatedly kick and catch the ball, as this provides a safe way to move the ball anywhere within the penalty area).
 - Flooding the Server with Messages: A player should not send more than 3 or 4 commands per simulation cycle to the soccer server. Abuse may be checked if the server is jammed, or upon request after a game.
 - Inappropriate Behaviour: If a player is observed to interfere with the match in an inappropriate way, the human referee can suspend the match and give a free kick to the opposite team.
-```

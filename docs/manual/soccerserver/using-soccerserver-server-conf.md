@@ -1,4 +1,3 @@
-```markdown
 | Name                        | Current Value in `server.conf`           | Description                                                                                                                                               |
 |-----------------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | version                     | VERSION                                 | soccer server version                                                                                                                                     |
@@ -199,4 +198,3 @@
 | team_r_start                | ''                                      | path to start script of right team                                                                                                                        |
 | text_log_dir                | './'                                    | path to text log directory                                                                                                                                |
 | text_log_fixed_name         | ''                                      | fixed name of text log                                                                                                                                    |
-```

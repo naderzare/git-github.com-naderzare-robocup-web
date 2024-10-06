@@ -1,4 +1,3 @@
-```markdown
 | Name                          | Current Value in `player.conf` | Description                                                                 |
 |-------------------------------|---------------------------------|-----------------------------------------------------------------------------|
 | version                       |                                 | soccer server version                                                       |
@@ -31,4 +30,3 @@
 | player_speed_max_delta_max    | 0                               | defines the upper bound of player's maximum speed when added to server::player_speed_max |
 | player_speed_max_delta_min    | 0                               | defines the lower bound of player's maximum speed when added to server::player_speed_max |
 | stamina_inc_max_delta_factor  | 0                               |                                                                             |
-```

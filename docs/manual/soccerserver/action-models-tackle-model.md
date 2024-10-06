@@ -1,4 +1,3 @@
-```markdown
 # Tackle Model
 
 The tackle command is to accelerate the ball towards the player's body (**TODO:new tackle model [12.0.0 pre-20080210]**). Players can kick the ball that cannot be kicked with the kick command by executing the tackle command. The success of tackle depends on a random probability related to the position of the ball. It can be obtained by the following formula.
@@ -41,4 +40,3 @@ Once the player executes the tackle command, whether successful or not, the play
 | max_tackle_power                                 | 100       |
 | max_back_tackle_power                            | 0         |
 | tackle_rand_factor                               | 2         |
-```

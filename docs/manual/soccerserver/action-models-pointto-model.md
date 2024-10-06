@@ -1,5 +1,3 @@
----
-
 ## Pointto Model
 
 Players can send commands to point to a spot on the field in the form of:
