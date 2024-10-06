@@ -1,69 +1,44 @@
-.. -*- coding: utf-8; -*-
-
 Last update: |today|
 
-.. _cha-soccerserver:
+<a id="cha-soccerserver"></a>
 
-*************************************************
-Soccer Server
-*************************************************
+# Soccer Server
 
+## Objects
 
-==================================================
-Objects
-==================================================
+![UML diagram of the objects in the simulation](./images/objects.png){: align=center scale="80%" name="objects"}
 
-.. figure:: ./images/objects.*
-  :align: center
-  :scale: 80%
-  :name: objects
+## Protocols
 
-  UML diagram of the objects in the simulation
+{% include 'soccerserver/protocols.md' %}
 
-==================================================
-Protocols
-==================================================
+<a id="sec-sensormodels"></a>
 
-.. include:: soccerserver/protocols.rst
+## Sensor Models
 
+{% include 'soccerserver/sensor-models.md' %}
 
-.. _sec-sensormodels:
+<a id="sec-movementmodels"></a>
 
-==================================================
-Sensor Models
-==================================================
+## Movement Models
 
-.. include:: soccerserver/sensor-models.rst
+{% include 'soccerserver/movement-models.md' %}
 
+## Action Models
 
-.. _sec-movementmodels:
+{% include 'soccerserver/action-models-catch-model.md' %}
 
-==================================================
-Movement Models
-==================================================
+{% include 'soccerserver/action-models-dash-model.md' %}
 
-.. include:: soccerserver/movement-models.rst
+{% include 'soccerserver/action-models-kick-model.md' %}
 
+{% include 'soccerserver/action-models-move-model.md' %}
 
-==================================================
-Action Models
-==================================================
+{% include 'soccerserver/action-models-say-model.md' %}
 
-.. include:: soccerserver/action-models-catch-model.rst
+{% include 'soccerserver/action-models-tackle-model.md' %}
 
-.. include:: soccerserver/action-models-dash-model.rst
-
-.. include:: soccerserver/action-models-kick-model.rst
-
-.. include:: soccerserver/action-models-move-model.rst
-
-.. include:: soccerserver/action-models-say-model.rst
-
-.. include:: soccerserver/action-models-tackle-model.rst
-
---------------------------------------------------
-Foul Model
---------------------------------------------------
+### Foul Model
 
 **TODO**
 
@@ -71,39 +46,30 @@ Foul Model
 - [14.0.0] trade off between foul detect probability and kick power rate
 - [15.0.0] improve foul model (red_card_probability)
 
-.. include:: soccerserver/action-models-turn-model.rst
+{% include 'soccerserver/action-models-turn-model.md' %}
 
-.. include:: soccerserver/action-models-turnneck-model.rst
+{% include 'soccerserver/action-models-turnneck-model.md' %}
 
-.. include:: soccerserver/action-models-change-focus-model.rst
+{% include 'soccerserver/action-models-change-focus-model.md' %}
 
-.. include:: soccerserver/action-models-pointto-model.rst
+{% include 'soccerserver/action-models-pointto-model.md' %}
 
-.. include:: soccerserver/action-models-attentionto-model.rst
+{% include 'soccerserver/action-models-attentionto-model.md' %}
 
+<a id="sec-heterogeneousplayers"></a>
 
-.. _sec-heterogeneousplayers:
+## Heterogeneous Players
 
-==================================================
-Heterogeneous Players
-==================================================
+{% include 'soccerserver/heterogeneous-players.md' %}
 
-.. include:: soccerserver/heterogeneous-players.rst
+## Referee Model
 
-==================================================
-Referee Model
-==================================================
+{% include 'soccerserver/referee-model.md' %}
 
-.. include:: soccerserver/referee-model.rst
+## The Soccer Simulation
 
-==================================================
-The Soccer Simulation
-==================================================
+{% include 'soccerserver/the-soccer-simulation.md' %}
 
-.. include:: soccerserver/the-soccer-simulation.rst
+## Using Soccerserver
 
-==================================================
-Using Soccerserver
-==================================================
-
-.. include:: soccerserver/using-soccerserver.rst
+{% include 'soccerserver/using-soccerserver.md' %}
